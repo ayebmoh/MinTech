@@ -63,23 +63,18 @@ const Faq = () => {
       <BreadCrumb Title="Faq" />
       <section className="">
         <div className="container px-6 py-12 mx-auto">
-          <h1 className="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">
+          <h1 className="text-2xl font-semibold  lg:text-3xl text-white">
             Frequently asked questions
           </h1>
 
           <div className="mt-8 space-y-8 lg:mt-12">
             {faqData.map((item, index) => (
-              <div
-                key={index}
-                className="p-8 bg-gray-100 rounded-lg dark:bg-gray-800"
-              >
+              <div key={index} className="p-8  rounded-lg bg-gray-800">
                 <button
                   className="flex items-center justify-between w-full"
                   onClick={() => toggleAnswer(index)}
                 >
-                  <h1 className="font-semibold text-gray-700 dark:text-white">
-                    {item.question}
-                  </h1>
+                  <h1 className="font-semibold  text-white">{item.question}</h1>
                   <span className="text-white bg-blue-500 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -100,9 +95,7 @@ const Faq = () => {
                   </span>
                 </button>
                 {activeIndex === index && (
-                  <p className="mt-6 text-sm text-gray-500 dark:text-gray-300">
-                    {item.answer}
-                  </p>
+                  <p className="mt-6 text-sm  text-gray-300">{item.answer}</p>
                 )}
               </div>
             ))}
