@@ -1,8 +1,7 @@
 "use client";
-import { ArrowRightIcon, ArrowUpRightIcon } from "../RemoteComponents";
-import Hero from "@/app/assets/hero.png";
+import { ArrowUpRightIcon } from "../RemoteComponents";
 import { motion } from "framer-motion";
-import { slideIn, slideAndFloat, floating } from "@/app/animations";
+import { floating } from "@/app/animations";
 const HeroSection = () => {
   return (
     <section className="bg-gradient-to-b  from-black via-sky-800/55 to-black ">
@@ -28,7 +27,7 @@ const HeroSection = () => {
             Feel free to adjust any part of it to better align with your vision!
           </p>
           <a
-            href="#"
+            href="/services"
             className="inline-flex  items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 bg-sky-700 hover:bg-sky-800 focus:ring-4  focus:ring-gray-500"
           >
             Explore our services

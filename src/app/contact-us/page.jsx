@@ -10,24 +10,22 @@ const ContactUs = () => {
       <div className="bg-gradient-to-b from-transparent via-sky-900/65 via-50% to-slate-900 font-[sans-serif] lg:h-screen">
         <div className="grid lg:flex lg:flex-row items-center max-lg:justify-center gap-6 lg:gap-0 h-full sm:p-12 p-4 max-sm:p-4">
           <div className="max-w-lg max-lg:mx-auto max-lg:text-center ">
-            <h2 className="text-4xl font-extrabold text-gray-200">
+            <h2 className="text-4xl animate-slide-in-left font-extrabold text-gray-200">
               Get In Touch
             </h2>
-            <p className="text-md text-gray-300 mt-4 leading-relaxed">
+            <p className="text-md animate-slide-in-left text-gray-300 mt-4 leading-relaxed">
               Feel free to reach out to us with any inquiries or project needs.
-              Our team is here to assist you in finding tailored solutions to
-              help your business thrive. Whether you have questions about our
-              services or want to explore how we can collaborate, we’re just a
-              message away!
+              Whether you have questions about our services or want to explore
+              how we can collaborate, we’re just a message away!
             </p>
-            <div className=" text-start  flex w-full my-3 justify-center lg:justify-start items-center flex-row gap-3">
+            <div className="animate-slide-in-left text-start  flex w-full my-3 justify-center lg:justify-start items-center flex-row gap-3">
               <MdEmail className="text-sky-500  h-10 w-10 font-bold" />
 
               <h1 className="text-white text-xl   font-bold">
                 admin@mintech.io
               </h1>
             </div>
-            <form className="mx-auto py-5 bg-white rounded-lg p-6 shadow-md space-y-4">
+            <form className=" animate-fade-up animate-delay-500 mx-auto py-9 bg-white rounded-lg p-6 shadow-md space-y-4">
               <input
                 type="text"
                 placeholder="Name"
@@ -39,12 +37,13 @@ const ContactUs = () => {
                 className="w-full rounded-md h-12 px-6 bg-[#f0f1f2] text-sm outline-sky-600"
               />
               <select
-                className="w-full bg-gray-100 rounded-md py-3 px-4 text-sm outline-sky-600 "
+                className="w-full bg-gray-100 rounded-md py-3 px-4 text-sm outline-sky-600 focus:bg-white"
                 name="services"
                 id="services"
                 required
+                defaultValue=""
               >
-                <option value="" disabled selected>
+                <option value="" disabled>
                   Choose Service
                 </option>
                 <option value="product_Design">Product Design</option>
@@ -76,7 +75,7 @@ const ContactUs = () => {
             </form>
           </div>
 
-          <div className="z-10 flex mx-auto flex-col text-center gap-7 relative  lg:">
+          <div className="z-10 animate-fade animate-delay-700 flex mx-auto flex-col text-center gap-7 relative  lg:">
             <img
               src={Contact.src}
               className=" md:w-[600px] lg:w-[800px] object-contain block mx-auto  "

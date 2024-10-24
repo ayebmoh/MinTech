@@ -49,8 +49,9 @@ const ContactSection = () => {
                 name="services"
                 id="services"
                 required
+                defaultValue=""
               >
-                <option value="" disabled selected>
+                <option value="" disabled>
                   Choose Service
                 </option>
                 <option value="product_Design">Product Design</option>

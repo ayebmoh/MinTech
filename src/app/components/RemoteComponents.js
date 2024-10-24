@@ -7,6 +7,7 @@ import {
   ShieldCheckIcon,
   ArrowUpRightIcon,
   ChevronRightIcon,
+  XMarkIcon,
 } from "@heroicons/react/24/solid";
 import {
   FaCode,
@@ -35,4 +36,5 @@ export {
   MdSecurity,
   MdOutlineDesignServices,
   ArrowUpRightIcon,
+  XMarkIcon,
 };

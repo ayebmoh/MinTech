@@ -21,27 +21,30 @@ const ServicesSection = () => {
           world.
         </p>
       </div>
-      <div className=" flex flex-col items-center -space-x-4 gap-4 p-6  md:grid md:grid-cols-2 lg:grid-cols-3 lg:justify-center lg:pl-20 w-full">
+      <div className="  flex flex-col items-center -space-x-4 gap-4 p-6  md:grid md:grid-cols-2 lg:grid-cols-3 lg:justify-center lg:pl-20 w-full">
         <ServiceCard
-          delay="0.5"
+          path="/CyberSecurity"
+          delay="1"
           serviceicon={Security.src}
           title="Cybersecurity"
           description="Safeguard your business with comprehensive, state-of-the-art security measures that protect your data and systems from threats."
         />
         <ServiceCard
-          delay="0.5"
+          path="/Ai"
+          delay="1"
           serviceicon={Ai.src}
           title="AI Solutions"
           description="Harness the power of artificial intelligence to automate processes, drive insights, and make smarter, data-driven decisions."
         />
         <ServiceCard
-          path="web&mobile"
-          delay="0.5"
+          path="/Web&Mobile"
+          delay="1"
           serviceicon={Web.src}
           title="Web Development"
           description="Create modern, responsive websites that are tailored to your business needs, ensuring a seamless user experience on all devices."
         />
         <ServiceCard
+          path="/SMA"
           delay="0.8"
           serviceicon={Social.src}
           title="Social Media Management"
@@ -49,6 +52,7 @@ const ServicesSection = () => {
         />
         <ServiceCard
           delay="0.8"
+          path="/Bi"
           serviceicon={Buisness.src}
           title="Business Intelligence"
           description="Unlock valuable insights from your data with advanced analytics, helping you make informed decisions that drive your business forward."
