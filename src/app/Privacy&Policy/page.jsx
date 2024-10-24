@@ -8,13 +8,13 @@ const PrivacyPolicy = () => {
       <BreadCrumb Title="Privacy Policy" />
       <section className=" animate-fade-up py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-semibold text-gray-800 dark:text-white mb-6">
+          <h1 className="text-3xl font-semibold text-white mb-6">
             Privacy Policy
           </h1>
 
-          <div className="space-y-8 text-gray-600 dark:text-gray-300">
+          <div className="space-y-8 text-gray-300">
             <div>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+              <h2 className="text-xl font-semibold text-white mb-2">
                 1. Overview
               </h2>
               <p>
@@ -28,7 +28,7 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+              <h2 className="text-xl font-semibold text-white mb-2">
                 2. Information We Collect
               </h2>
               <p>
@@ -54,7 +54,7 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+              <h2 className="text-xl font-semibold text-white mb-2">
                 3. Usage of Collected Information
               </h2>
               <p>
@@ -85,7 +85,7 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+              <h2 className="text-xl font-semibold text-white mb-2">
                 4. Legal Basis for Data Processing
               </h2>
               <p>
@@ -109,7 +109,7 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+              <h2 className="text-xl font-semibold text-white mb-2">
                 5. Data Sharing and Disclosure
               </h2>
               <p>
@@ -131,7 +131,7 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+              <h2 className="text-xl font-semibold text-white mb-2">
                 6. Safeguarding Your Data
               </h2>
               <p>
@@ -142,7 +142,7 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+              <h2 className="text-xl font-semibold text-white mb-2">
                 7. Cookies and Tracking Technologies
               </h2>
               <p>
@@ -154,7 +154,7 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+              <h2 className="text-xl font-semibold text-white mb-2">
                 8. Your Rights Under GDPR
               </h2>
               <p>
@@ -190,7 +190,7 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+              <h2 className="text-xl font-semibold text-white mb-2">
                 9. Data Retention
               </h2>
               <p>
@@ -201,7 +201,7 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+              <h2 className="text-xl font-semibold text-white mb-2">
                 10. Third-Party Links
               </h2>
               <p>
@@ -212,7 +212,7 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+              <h2 className="text-xl font-semibold text-white mb-2">
                 11. Updates to this Privacy Policy
               </h2>
               <p>
@@ -223,7 +223,7 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+              <h2 className="text-xl font-semibold text-white mb-2">
                 12. Contact Information
               </h2>
               <p>If you have any questions or concerns, please contact us:</p>
