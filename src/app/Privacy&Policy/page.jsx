@@ -18,12 +18,12 @@ const PrivacyPolicy = () => {
                 1. Overview
               </h2>
               <p>
-                At <strong>MinTech</strong>, we prioritize the privacy and
-                security of our customers, partners, and website users. This
-                Privacy Policy explains how we handle your personal data,
-                detailing our collection, usage, and safeguarding practices in
-                compliance with relevant data protection laws, including the
-                General Data Protection Regulation (GDPR).
+                At <strong>MinTech</strong>, we are committed to protecting the
+                privacy and security of our customers, partners, and website
+                users. This Privacy Policy outlines how we collect, use, and
+                safeguard personal data in compliance with Hong Kong’s Personal
+                Data (Privacy) Ordinance (PDPO) and, where applicable, the
+                European Union's General Data Protection Regulation (GDPR).
               </p>
             </div>
 
@@ -32,34 +32,33 @@ const PrivacyPolicy = () => {
                 2. Information We Collect
               </h2>
               <p>
-                We may gather and process various types of information,
+                We may collect and process various types of information,
                 including:
               </p>
               <ul className="list-disc list-inside ml-4">
                 <li>
-                  <strong>Personal Details</strong>: Information like your name,
-                  email, phone number, job title, and company name when you
-                  interact with us.
+                  <strong>Personal Details</strong>: Information such as your
+                  name, email, phone number, job title, and company name when
+                  you interact with us.
                 </li>
                 <li>
-                  <strong>Project-Specific Information</strong>: Data related to
-                  your project needs, preferences, and specifications.
+                  <strong>Project-Specific Information</strong>: Information
+                  related to your project requirements, preferences, and
+                  specifications.
                 </li>
                 <li>
-                  <strong>Technical Information</strong>: This includes IP
-                  addresses, browser types, operating system details, and usage
-                  patterns when you visit our website.
+                  <strong>Technical Information</strong>: Including IP
+                  addresses, browser types, operating system details, and
+                  website usage patterns.
                 </li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-white mb-2">
-                3. Usage of Collected Information
+                3. Use of Collected Information
               </h2>
-              <p>
-                We utilize the data collected for several reasons, including:
-              </p>
+              <p>We may use your information for purposes such as:</p>
               <ul className="list-disc list-inside ml-4">
                 <li>
                   Providing and enhancing our IT services, including consulting
@@ -67,20 +66,17 @@ const PrivacyPolicy = () => {
                 </li>
                 <li>
                   Communicating with you about your project, responding to
-                  queries, and maintaining client relationships.
+                  inquiries, and maintaining client relationships.
                 </li>
                 <li>
-                  Managing contracts, processing payments, and fulfilling legal
-                  obligations.
+                  Processing contracts, payments, and fulfilling legal
+                  obligations. s.
                 </li>
                 <li>
-                  Analyzing website traffic to enhance user experience and
+                  Analyzing website traffic to improve user experience and
                   performance.
                 </li>
-                <li>
-                  Sending promotional materials or updates, provided you’ve
-                  opted to receive them.
-                </li>
+                <li>Sending promotional updates if you have opted in.</li>
               </ul>
             </div>
 
@@ -89,21 +85,22 @@ const PrivacyPolicy = () => {
                 4. Legal Basis for Data Processing
               </h2>
               <p>
-                We rely on several legal grounds to process personal data,
-                including:
+                In Hong Kong, we process personal data in line with the PDPO
+                principles. When applicable for EU residents, we rely on
+                GDPR-compliant legal bases for data processing:
               </p>
               <ul className="list-disc list-inside ml-4">
                 <li>
-                  <strong>Contractual Necessity</strong>: To provide the
-                  services you’ve requested.
+                  <strong>Contractual Necessity</strong>: To fulfill services
+                  you have requested.
                 </li>
                 <li>
-                  <strong>Legitimate Interests</strong>: For running our
-                  business and improving our services.
+                  <strong>Legitimate Interests</strong>: For conducting business
+                  operations and service improvements.
                 </li>
                 <li>
-                  <strong>Consent</strong>: For any marketing-related
-                  communications where you have provided permission.
+                  <strong>Consent</strong>: For marketing communications where
+                  consent has been given.
                 </li>
               </ul>
             </div>
@@ -114,30 +111,27 @@ const PrivacyPolicy = () => {
               </h2>
               <p>
                 We do not sell or trade personal data. However, we may share
-                your information with:
+                information with:
               </p>
               <ul className="list-disc list-inside ml-4">
                 <li>
-                  <strong>Service Providers</strong>: Trusted third parties who
-                  assist in service delivery (e.g., cloud storage, payment
-                  processors).
+                  <strong>Service Providers</strong>: Trusted third parties for
+                  service delivery (e.g., cloud storage, payment processors).
                 </li>
                 <li>
-                  <strong>Legal Compliance</strong>: When required by law or to
-                  protect our legal rights, we may disclose your information to
-                  authorities.
+                  <strong>Legal Compliance</strong>: To fulfill legal
+                  requirements or protect our rights under applicable law.
                 </li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-white mb-2">
-                6. Safeguarding Your Data
+                6. Data Security
               </h2>
               <p>
-                We implement industry-standard security measures to safeguard
-                your data. However, no system can be completely secure, and we
-                cannot guarantee absolute protection.
+                We use industry-standard security measures to protect your data.
+                However, no system can guarantee absolute security.
               </p>
             </div>
 
@@ -146,41 +140,41 @@ const PrivacyPolicy = () => {
                 7. Cookies and Tracking Technologies
               </h2>
               <p>
-                Our website uses cookies to enhance user experience and analyze
-                website traffic. You can control cookies through your browser
-                settings, though some features may not work properly if cookies
-                are disabled.
+                Our website uses cookies to improve user experience and analyze
+                website traffic. You can control cookies via browser settings,
+                though disabling cookies may affect certain features.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-white mb-2">
-                8. Your Rights Under GDPR
+                8. Your Rights
               </h2>
               <p>
-                As a user located in the European Union, you have the following
-                rights regarding your personal data:
+                Under the PDPO, Hong Kong users have rights to access and
+                correct their personal data. For EU residents, additional rights
+                under GDPR include:
               </p>
               <ul className="list-disc list-inside ml-4">
                 <li>
-                  <strong>Access</strong>: Request details about the personal
-                  data we hold.
+                  <strong>Access</strong>: Request access to personal data we
+                  hold.
                 </li>
                 <li>
-                  <strong>Correction</strong>: Request corrections to inaccurate
+                  <strong>Correction</strong>: Request correction of inaccurate
                   information.
                 </li>
                 <li>
-                  <strong>Deletion</strong>: Request data deletion under certain
-                  conditions.
+                  <strong>Deletion</strong>: Request deletion of data under
+                  certain conditions (for EU residents).
                 </li>
                 <li>
-                  <strong>Restriction or Objection</strong>: Ask us to limit or
-                  stop certain data processing.
+                  <strong>Restriction or Objection</strong>: Request limits or
+                  object to certain processing activities (for EU residents).
                 </li>
                 <li>
-                  <strong>Data Portability</strong>: Request to receive your
-                  data in a machine-readable format.
+                  <strong>Data Portability</strong>: Request a copy of your data
+                  in a structured format (for EU residents).
                 </li>
                 <li>
                   <strong>Withdraw Consent</strong>: Withdraw consent for
@@ -194,9 +188,9 @@ const PrivacyPolicy = () => {
                 9. Data Retention
               </h2>
               <p>
-                We retain personal data only for as long as necessary to fulfill
-                the purposes outlined in this policy or as legally required.
-                When no longer needed, the data is securely deleted.
+                We retain personal data only as necessary for the purposes
+                outlined in this policy or as required by law. Data is securely
+                deleted when no longer needed.
               </p>
             </div>
 
@@ -205,9 +199,9 @@ const PrivacyPolicy = () => {
                 10. Third-Party Links
               </h2>
               <p>
-                Our website may contain links to external sites. Please review
-                their privacy policies, as we are not responsible for their
-                content or practices.
+                Our website may link to external sites. We are not responsible
+                for their privacy practices, so please review their privacy
+                policies.
               </p>
             </div>
 
